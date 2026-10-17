@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_.METHOD']=='POST'){
         if($conn->query($sql)===TRUE) {
             echo "<p style='color: green;'>Студент добавлен!</p>";
         }
-    }else{
+    } else {
         echo "<p style='color:red;>Заполните все поля!</p>";
     }
 }
@@ -30,6 +30,7 @@ if($_SERVER['REQUEST_.METHOD']=='POST'){
         <label>Email:</label><br>
         <input type="email" name ="student_email"><br><br>
         <input type="submit" value= "Сохранить в БД">
-  </form>
+</form>
 </body>
 </html>
+
