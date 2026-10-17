@@ -19,7 +19,7 @@ if($_SERVER['REQUEST_.METHOD']=='POST'){
 <html>
 <head>
     <title>Добавить студента</title>
-</head>
+<head>
 <body>
     <a href="index.php">Назад к списку</a>
     <hr>
@@ -29,7 +29,7 @@ if($_SERVER['REQUEST_.METHOD']=='POST'){
         <input type="text"name="student_name"><br><br>
         <label>Email:</label><br>
         <input type="email" name ="student_email"><br><br>
-        <input type="sumbit" value= "Сохранить в БД">
+        <input type="submit" value= "Сохранить в БД">
   </form>
 </body>
 </html>
