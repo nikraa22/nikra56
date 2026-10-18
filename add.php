@@ -19,7 +19,7 @@ if($_SERVER['REQUEST_.METHOD']=='POST'){
 <html>
 <head>
     <title>Добавить студента</title>
-<head>
+</head>
 <body>
     <a href="index.php">Назад к списку</a>
     <hr>
